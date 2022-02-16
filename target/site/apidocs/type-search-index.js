@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.makotojava.learn.hellojunit5","l":"App"}];updateSearchResults();
