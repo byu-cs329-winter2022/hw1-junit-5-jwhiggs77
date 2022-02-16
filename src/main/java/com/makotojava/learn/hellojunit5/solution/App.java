@@ -1,6 +1,6 @@
-// package com.makotojava.learn.hellojunit5.solution;
+package com.makotojava.learn.hellojunit5.solution;
 
-// /*
+// /**
 //  * Copyright 2017 Makoto Consulting Group, Inc.
 //  * 
 //  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,15 +19,16 @@
 //   /**
 //    * Computes the sum of the specified operands.
 //    * 
-//    * @param operands
-//    *          These are the operands. It's sort of there in the name.
+//    * @param operands These are the operands. It's sort of there in the name.
 //    * 
 //    * @return long - The computed sum.
 //    * 
 //    * @throws IllegalArgumentException
-//    *           If the specified array of operands is empty or long.
-//    *           This is definitely an overreaction, but this is sample
-//    *           code, son.
+//    *                                  If the specified array of operands is empty
+//    *                                  or long.
+//    *                                  This is definitely an overreaction, but this
+//    *                                  is sample
+//    *                                  code, son.
 //    */
 //   public long add(long[] operands) {
 //     // Compute the sum

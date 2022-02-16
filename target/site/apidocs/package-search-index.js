@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.makotojava.learn.hellojunit5"},{"l":"com.makotojava.learn.hellojunit5.solution"}];updateSearchResults();

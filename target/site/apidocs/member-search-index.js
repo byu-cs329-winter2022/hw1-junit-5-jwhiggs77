@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.makotojava.learn.hellojunit5","c":"App","l":"add(long[])"},{"p":"com.makotojava.learn.hellojunit5","c":"App","l":"App()","u":"%3Cinit%3E()"}];updateSearchResults();

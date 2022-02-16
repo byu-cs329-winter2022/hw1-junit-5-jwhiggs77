@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.makotojava.learn.hellojunit5.JUnit5AppTest" time="0.151" tests="9" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.makotojava.learn.hellojunit5.solution.JUnit5AppTest" time="0.113" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/surefire/surefirebooter4029421581075364187.jar /Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/surefire 2022-02-15T19-27-34_579-jvmRun1 surefire3435560790843765710tmp surefire_011162509780555418996tmp"/>
+    <property name="sun.java.command" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/surefire/surefirebooter15246164557525999563.jar /Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/surefire 2022-02-15T19-27-12_683-jvmRun1 surefire4034492247097257062tmp surefire_012191553037601739979tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/test-classes:/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/classes:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-runner/1.7.0/junit-platform-runner-1.7.0.jar:/Users/joshuahiggins/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/joshuahiggins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/joshuahiggins/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-suite-api/1.7.0/junit-platform-suite-api-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/surefire/surefirebooter4029421581075364187.jar"/>
+    <property name="surefire.real.class.path" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/surefire/surefirebooter15246164557525999563.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.1+1"/>
@@ -55,20 +55,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Adding operands test" classname="JUnit 5 tests" time="0.008">
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
+  <testcase name="" classname="Testing using JUnit 5" time="0.107">
+    <error message="App" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: App
+Caused by: java.lang.ClassNotFoundException: App
+]]></error>
   </testcase>
-  <testcase name="Empty array test" classname="No operands tests" time="0.001"/>
-  <testcase name="Null array test" classname="No operands tests" time="0.001"/>
-  <testcase name="Adding positive numbers with one operand test" classname="Single operand tests" time="0.001"/>
-  <testcase name="Adding negative numbers with one operand test" classname="Single operand tests" time="0"/>
-  <testcase name="Adding positive and negative operands test" classname="Positive and negative numbers test" time="0.001"/>
-  <testcase name="Test adding on Friday" classname="Positive and negative numbers test" time="0">
-    <skipped message="Assumption failed: Today is not Friday"/>
-  </testcase>
-  <testcase name="Test adding on Friday with lambda" classname="Positive and negative numbers test" time="0.001"/>
-  <testcase name="Adding negative operands test" classname="Negative number tests" time="0"/>
 </testsuite>
