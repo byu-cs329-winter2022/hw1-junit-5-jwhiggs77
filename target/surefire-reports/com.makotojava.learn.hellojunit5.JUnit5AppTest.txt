@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.makotojava.learn.hellojunit5.JUnit5AppTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 0.154 s <<< FAILURE! - in com.makotojava.learn.hellojunit5.JUnit5AppTest
-No operands tests.Empty array test  Time elapsed: 0.003 s  <<< ERROR!
-java.lang.IllegalArgumentException: Operands argument cannot be empty
-
-No operands tests.Null array test  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.IllegalArgumentException: Operands argument cannot be null
-
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.149 s - in com.makotojava.learn.hellojunit5.JUnit5AppTest

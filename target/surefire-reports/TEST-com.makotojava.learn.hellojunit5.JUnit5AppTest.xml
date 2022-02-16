@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.makotojava.learn.hellojunit5.JUnit5AppTest" time="0.154" tests="9" errors="2" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.makotojava.learn.hellojunit5.JUnit5AppTest" time="0.149" tests="9" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/joshuahiggins/Desktop/Desktop - Joshua’s MacBook Air/CS 329/HelloJUnit5/target/test-classes:/Users/joshuahiggins/Desktop/Desktop - Joshua’s MacBook Air/CS 329/HelloJUnit5/target/classes:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-runner/1.7.0/junit-platform-runner-1.7.0.jar:/Users/joshuahiggins/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/joshuahiggins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/joshuahiggins/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-suite-api/1.7.0/junit-platform-suite-api-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar:"/>
+    <property name="java.class.path" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/test-classes:/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/classes:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-runner/1.7.0/junit-platform-runner-1.7.0.jar:/Users/joshuahiggins/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/joshuahiggins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/joshuahiggins/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-suite-api/1.7.0/junit-platform-suite-api-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/joshuahiggins/Desktop/Desktop - Joshua’s MacBook Air/CS 329/HelloJUnit5/target/surefire/surefirebooter331869401369423054.jar /Users/joshuahiggins/Desktop/Desktop - Joshua’s MacBook Air/CS 329/HelloJUnit5/target/surefire 2022-01-15T16-27-06_397-jvmRun1 surefire13861784091107807656tmp surefire_018419013715562695921tmp"/>
+    <property name="sun.java.command" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/surefire/surefirebooter1044631832811864089.jar /Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/surefire 2022-02-15T19-15-53_276-jvmRun1 surefire11364928095716130017tmp surefire_08176065080014795826tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/joshuahiggins/Desktop/Desktop - Joshua’s MacBook Air/CS 329/HelloJUnit5/target/test-classes:/Users/joshuahiggins/Desktop/Desktop - Joshua’s MacBook Air/CS 329/HelloJUnit5/target/classes:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-runner/1.7.0/junit-platform-runner-1.7.0.jar:/Users/joshuahiggins/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/joshuahiggins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/joshuahiggins/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-suite-api/1.7.0/junit-platform-suite-api-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/test-classes:/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/classes:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-runner/1.7.0/junit-platform-runner-1.7.0.jar:/Users/joshuahiggins/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/joshuahiggins/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/joshuahiggins/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/junit/platform/junit-platform-suite-api/1.7.0/junit-platform-suite-api-1.7.0.jar:/Users/joshuahiggins/.m2/repository/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/joshuahiggins"/>
     <property name="user.language" value="en"/>
@@ -23,12 +23,12 @@
     <property name="java.version.date" value="2021-10-19"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/joshuahiggins/Desktop/Desktop - Joshua’s MacBook Air/CS 329/HelloJUnit5"/>
+    <property name="basedir" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/joshuahiggins/Desktop/Desktop - Joshua’s MacBook Air/CS 329/HelloJUnit5/target/surefire/surefirebooter331869401369423054.jar"/>
+    <property name="surefire.real.class.path" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77/target/surefire/surefirebooter1044631832811864089.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.1+1"/>
@@ -43,7 +43,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/k9/pnfsg8dj1msffq3jg85zyj340000gn/T/"/>
     <property name="java.version" value="17.0.1"/>
-    <property name="user.dir" value="/Users/joshuahiggins/Desktop/Desktop - Joshua’s MacBook Air/CS 329/HelloJUnit5"/>
+    <property name="user.dir" value="/Users/joshuahiggins/Desktop/Joshua’s MacBook/CS 329/hw1-junit-5-jwhiggs77"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -55,20 +55,14 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Adding operands test" classname="JUnit 5 tests" time="0.007">
+  <testcase name="Adding operands test" classname="JUnit 5 tests" time="0.008">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="Empty array test" classname="No operands tests" time="0.003">
-    <error message="Operands argument cannot be empty" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Operands argument cannot be empty
-]]></error>
-  </testcase>
-  <testcase name="Null array test" classname="No operands tests" time="0.001">
-    <error message="Operands argument cannot be null" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Operands argument cannot be null
-]]></error>
-  </testcase>
+  <testcase name="Empty array test" classname="No operands tests" time="0.001"/>
+  <testcase name="Null array test" classname="No operands tests" time="0.001"/>
   <testcase name="Adding positive numbers with one operand test" classname="Single operand tests" time="0.001"/>
   <testcase name="Adding negative numbers with one operand test" classname="Single operand tests" time="0.001"/>
   <testcase name="Adding positive and negative operands test" classname="Positive and negative numbers test" time="0.001"/>
@@ -76,5 +70,5 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
     <skipped message="Assumption failed: Today is not Friday"/>
   </testcase>
   <testcase name="Test adding on Friday with lambda" classname="Positive and negative numbers test" time="0"/>
-  <testcase name="Adding negative operands test" classname="Negative number tests" time="0.001"/>
+  <testcase name="Adding negative operands test" classname="Negative number tests" time="0"/>
 </testsuite>

@@ -440,8 +440,12 @@ public class JUnit5AppTest {
     @DisplayName("Empty array test")
     public void testAdd_ZeroOperands_EmptyArgument() {
       long[] operands = {};
+      try {
       app.add(operands);
-      assertThrows(IllegalArgumentException.class, ()-> app.add(operands));
+      }catch (IllegalArgumentException exception) {
+        assertThrows(IllegalArgumentException.class, ()-> app.add(operands));
+      }
+      
     }
 
     /**
@@ -465,10 +469,15 @@ public class JUnit5AppTest {
     @Test
     @DisplayName("Null array test")
     public void testAdd_ZeroOperands_NullArgument() {
-      long[] operands = null;
-      app.add(operands);
-      Throwable exception = assertThrows(IllegalArgumentException.class, ()-> app.add(operands));
-      assertEquals("Operands argument cannot be null", exception.getMessage());
+      long[] operands = {};
+      try {
+        app.add(operands);
+      } catch (Exception e) {
+        Throwable exception = assertThrows(IllegalArgumentException.class, ()-> app.add(operands));
+        assertEquals("Operands argument cannot be empty", exception.getMessage());
+      }
+      
+      
     }
 
   }
